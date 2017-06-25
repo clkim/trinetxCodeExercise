@@ -1,0 +1,11 @@
+<map>
+    <room id="Room1" name="Room 1" east="Room2">
+        <object name="Item1"/>
+    </room>
+
+    <room id="Room2" name="Room 2" west="Room1" south="Room3"/>
+
+    <room id="Room3" name="Room 3" north="Room2">
+        <object name="Item3"/>
+    </room>
+</map>
